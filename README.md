@@ -1,50 +1,53 @@
-# Sistema de Registro de Produtos
+Claro! Aqui está a versão atualizada do README.md, com as seções "Licença" e "Contato" removidas e outras informações ajustadas conforme necessário.
 
-Este projeto é um sistema simples de registro de produtos desenvolvido em Python, utilizando a biblioteca Tkinter para a interface gráfica e Pandas para o gerenciamento de dados. O sistema permite que o usuário selecione produtos e registre IDs de itens, monitorando o progresso do registro.
+```markdown
+# Registro de Produtos
+
+Este projeto é um sistema simples de registro de produtos, desenvolvido com Python e Tkinter. O objetivo do sistema é permitir que o usuário registre IDs de produtos em um almoxarifado, gerenciando a quantidade disponível de cada item.
 
 ## Funcionalidades
 
-- **Seleção de Produtos**: O usuário pode escolher entre uma lista de produtos disponíveis.
-- **Registro de IDs**: Após a seleção de um produto, o usuário pode inserir IDs correspondentes e o sistema informará quantos IDs ainda precisam ser registrados.
-- **Status do Registro**: O status do registro é atualizado em tempo real, indicando se o registro está pendente ou completo.
-- **Interface Gráfica**: A interface é amigável e intuitiva, facilitando a navegação e o uso do sistema.
+- Exibição de uma lista de produtos com suas respectivas quantidades.
+- Seleção de um produto específico para registrar IDs.
+- Entrada de IDs para cada produto selecionado, com validação de entrada.
+- Visualização do status de registro, indicando quantos IDs ainda precisam ser registrados.
+- Mensagem de sucesso quando todos os IDs de um produto foram registrados.
 
 ## Tecnologias Utilizadas
 
 - **Python**: Linguagem de programação utilizada.
-- **Tkinter**: Biblioteca para a criação da interface gráfica.
 - **Pandas**: Biblioteca para manipulação e análise de dados.
-- **Pillow**: Biblioteca para manipulação de imagens (opcional, utilizada para exibir imagens).
+- **Tkinter**: Biblioteca padrão de interface gráfica do Python.
 
-## Instalação
+## Como Executar o Projeto
 
-1. **Clone o repositório** ou faça o download do código.
-2. **Instale as dependências** necessárias (se ainda não estiverem instaladas):
+1. **Requisitos**: Certifique-se de ter o Python e as bibliotecas necessárias instaladas. Você pode instalar o Pandas usando o seguinte comando:
+
    ```bash
-   pip install pandas pillow
-   ```
-3. **Execute o programa**:
-   ```bash
-   python nome_do_arquivo.py
+   pip install pandas
    ```
 
-## Como Usar
+2. **Clone o Repositório**: Clone este repositório em sua máquina local:
 
-1. Ao iniciar o programa, você será recebido na tela inicial.
-2. Clique no botão "Iniciar Registro de Produtos" para acessar a página de seleção de produtos.
-3. Escolha um produto na lista suspensa.
-4. Insira os IDs na caixa de entrada e pressione Enter ou clique no botão "Confirmar" para registrar o ID.
-5. O sistema mostrará quantos IDs ainda precisam ser registrados. Quando todos os IDs forem registrados, uma mensagem de sucesso aparecerá.
+   ```bash
+   git clone https://github.com/seuusuario/registro-produtos.git
+   ```
 
-## Exemplo de Imagem
+3. **Execute o Programa**: Navegue até a pasta do projeto e execute o arquivo principal:
 
-![Exemplo de Tela](C:/Users/Igoor/OneDrive/Documentos/Projetos/hackamt/in.png)  
-*(Certifique-se de que a imagem está no caminho correto antes de executar o programa.)*
+   ```bash
+   python inout.py
+   ```
 
-## Contribuições
+4. **Interaja com o Sistema**: Siga as instruções na interface gráfica para registrar IDs dos produtos.
 
-Contribuições são bem-vindas! Se você tiver sugestões, correções ou melhorias, fique à vontade para abrir uma issue ou enviar um pull request.
+## Estrutura do Código
 
-## Licença
+- `dados`: Um dicionário que contém os nomes dos produtos e suas respectivas quantidades.
+- `Df`: Um DataFrame do Pandas que armazena os dados dos produtos.
+- `App`: Classe que define a aplicação Tkinter, gerenciando a interface gráfica e a lógica do sistema.
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+## Contribuição
+
+Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue ou um pull request.
+```
