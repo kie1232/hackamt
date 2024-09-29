@@ -26,20 +26,13 @@ Este projeto é um sistema simples de registro de produtos, desenvolvido com Pyt
    ```bash
    pip install pandas
    ```
-
-2. **Clone o Repositório**: Clone este repositório em sua máquina local:
-
-   ```bash
-   git clone https://github.com/seuusuario/registro-produtos.git
-   ```
-
-3. **Execute o Programa**: Navegue até a pasta do projeto e execute o arquivo principal:
+2. **Execute o Programa**: Navegue até a pasta do projeto e execute o arquivo principal:
 
    ```bash
    python inout.py
    ```
 
-4. **Interaja com o Sistema**: Siga as instruções na interface gráfica para registrar IDs dos produtos.
+3. **Interaja com o Sistema**: Siga as instruções na interface gráfica para registrar IDs dos produtos.
 
 ## Estrutura do Código
 
